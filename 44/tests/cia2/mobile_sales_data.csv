@@ -1,0 +1,51 @@
+Brand,Model,Price,Units_Sold,Total_Sales,Store,Payment_Method,Sale_Date
+Samsung,Galaxy S21,19000,3,57000,Store D,Debit Card,20-05-2024
+Apple,iPhone 14,71000,,426000,Store C,UPI,23-04-2024
+Xiaomi,Poco X3,,7,119000,Store B,UPI,29-08-2024
+Xiaomi,Redmi Note 10,62000,6,372000,Store B,UPI,18-05-2024
+OnePlus,OnePlus Nord,26500,1,26500,Store B,Debit Card,03-05-2024
+Samsung,Galaxy A52,52000,,364000,Store D,Debit Card,29-01-2024
+OnePlus,OnePlus 10,48000,3,144000,Store B,Debit Card,24-07-2024
+Apple,iPhone 14,65500,3,196500,Store A,UPI,03-05-2024
+Apple,iPhone 13,56000,3,168000,Store B,UPI,02-04-2024
+Xiaomi,Redmi Note 10,38500,9,346500,Store C,UPI,09-09-2024
+Apple,iPhone 14,67000,8,536000,Store C,Credit Card,06-04-2024
+Samsung,Galaxy S21,37500,9,337500,Store B,Credit Card,16-11-2024
+Apple,iPhone 13,51000,8,408000,Store A,Debit Card,01-06-2024
+,Galaxy A52,55500,2,111000,,Cash,16-01-2024
+Oppo,A74,75000,3,225000,Store B,UPI,12-02-2024
+Oppo,A74,29000,6,174000,Store B,UPI,09-11-2024
+OnePlus,OnePlus 9,29000,9,261000,,Credit Card,08-11-2024
+,OnePlus Nord,22500,5,112500,Store D,Credit Card,25-06-2024
+Samsung,Galaxy A52,25000,2,50000,Store D,Debit Card,12-11-2024
+Oppo,Reno 6,55500,4,222000,Store C,Cash,02-04-2024
+Xiaomi,Poco X3,53000,3,159000,,Debit Card,04-06-2024
+Oppo,A74,33000,5,165000,Store D,Credit Card,06-01-2024
+Xiaomi,Mi 11,23500,6,141000,Store D,Debit Card,06-03-2024
+Samsung,Galaxy S21,72500,7,507500,Store D,UPI,02-12-2024
+Xiaomi,Poco X3,59000,3,177000,Store A,UPI,12-04-2024
+Samsung,Galaxy S21,40500,6,243000,Store C,Debit Card,06-12-2024
+Oppo,Find X3,71000,2,142000,Store C,Credit Card,14-02-2024
+Xiaomi,Poco X3,15500,6,93000,Store B,UPI,10-09-2024
+Oppo,Reno 6,35000,5,175000,Store C,UPI,07-02-2024
+Apple,iPhone 14,,,184500,Store C,Debit Card,15-01-2024
+,Galaxy A52,55500,2,111000,Store C,UPI,19-02-2024
+OnePlus,OnePlus 10,45500,6,273000,Store C,Credit Card,19-11-2024
+Oppo,A74,69000,3,207000,Store A,UPI,27-03-2024
+OnePlus,OnePlus Nord,31000,7,217000,Store C,Cash,04-12-2024
+OnePlus,OnePlus 10,69000,9,621000,Store C,UPI,05-03-2024
+Samsung,Galaxy S22,25000,3,75000,Store A,UPI,07-02-2024
+Apple,iPhone 12,50500,7,353500,Store B,Debit Card,21-09-2024
+Xiaomi,Redmi Note 10,28500,5,142500,Store B,UPI,06-05-2024
+Apple,iPhone 12,,1,74500,Store D,Credit Card,23-04-2024
+,OnePlus 10,45000,1,45000,Store C,Cash,01-11-2024
+Samsung,Galaxy S22,34000,4,136000,,Debit Card,15-04-2024
+Xiaomi,Mi 11,34500,2,69000,Store B,UPI,15-03-2024
+Apple,iPhone 12,76000,5,380000,Store B,Debit Card,23-03-2024
+Samsung,Galaxy S22,23000,,115000,Store B,Cash,28-12-2024
+Oppo,Reno 6,57500,3,172500,Store D,Debit Card,16-04-2024
+,Find X3,,7,126000,Store B,Cash,14-01-2024
+Oppo,Find X3,,2,33000,Store C,UPI,30-08-2024
+Xiaomi,Redmi Note 10,67500,6,405000,Store D,Debit Card,10-11-2024
+Oppo,A74,56500,9,508500,Store B,Cash,17-08-2024
+Oppo,A74,38000,,228000,,Credit Card,21-12-2024

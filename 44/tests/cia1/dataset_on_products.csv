@@ -1,0 +1,21 @@
+order_id ,region,product,category,sales,quantity,months 
+1001,north,laptop,electronics ,55000,2,january
+1002,south,phone,electronics ,25000,5,january
+1003,east,chair,furniture,7000,4,january
+1004,west,table ,furniture,15000,2,february
+1005,north,laptop,electronics ,60000,3,february
+1006,south,sofa,furniture,30000,1,february
+1007,east,phone ,electronics,22000,4,february
+1008,west,chair,furniture,8000,2,march
+1009,north,tablet,electronics,15000,6,march
+1010,south,laptop,electronics,58000,2,march
+1011,east,sofa,furniture,32000,2,march
+1012,west,phone,electronics,24000,3,march
+1013,north,chair,furniture,9000,5,april
+1014,south,tablet,electronics,16000,4,april
+1015,east,laptop,electronics,61000,1,april
+1016,west,sofa,furniture,29000,3,april
+1017,north,phone,electronics,26000,2,may
+1018,south,table ,furniture,17000,2,may
+1019,east,tablet,electronics,15500,3,may
+1020,west,laptop ,electronics,57000,1,may
