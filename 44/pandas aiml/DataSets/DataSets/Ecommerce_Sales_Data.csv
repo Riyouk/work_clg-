@@ -1,0 +1,241 @@
+Month,Product Category,Region,Sales Units
+2023-01,Smartphones,North,202
+2023-01,Smartphones,South,535
+2023-01,Smartphones,East,960
+2023-01,Smartphones,West,370
+2023-01,Laptops,North,206
+2023-01,Laptops,South,171
+2023-01,Laptops,East,800
+2023-01,Laptops,West,120
+2023-01,Tablets,North,714
+2023-01,Tablets,South,221
+2023-01,Tablets,East,566
+2023-01,Tablets,West,314
+2023-01,Cameras,North,430
+2023-01,Cameras,South,558
+2023-01,Cameras,East,187
+2023-01,Cameras,West,472
+2023-01,Audio Devices,North,199
+2023-01,Audio Devices,South,971
+2023-01,Audio Devices,East,763
+2023-01,Audio Devices,West,230
+2023-02,Smartphones,North,761
+2023-02,Smartphones,South,408
+2023-02,Smartphones,East,869
+2023-02,Smartphones,West,443
+2023-02,Laptops,North,591
+2023-02,Laptops,South,513
+2023-02,Laptops,East,905
+2023-02,Laptops,West,485
+2023-02,Tablets,North,291
+2023-02,Tablets,South,376
+2023-02,Tablets,East,260
+2023-02,Tablets,West,559
+2023-02,Cameras,North,413
+2023-02,Cameras,South,121
+2023-02,Cameras,East,352
+2023-02,Cameras,West,847
+2023-02,Audio Devices,North,956
+2023-02,Audio Devices,South,660
+2023-02,Audio Devices,East,574
+2023-02,Audio Devices,West,158
+2023-03,Smartphones,North,610
+2023-03,Smartphones,South,781
+2023-03,Smartphones,East,575
+2023-03,Smartphones,West,799
+2023-03,Laptops,North,882
+2023-03,Laptops,South,289
+2023-03,Laptops,East,786
+2023-03,Laptops,West,662
+2023-03,Tablets,North,975
+2023-03,Tablets,South,666
+2023-03,Tablets,East,343
+2023-03,Tablets,West,931
+2023-03,Cameras,North,604
+2023-03,Cameras,South,230
+2023-03,Cameras,East,584
+2023-03,Cameras,West,918
+2023-03,Audio Devices,North,746
+2023-03,Audio Devices,South,120
+2023-03,Audio Devices,East,940
+2023-03,Audio Devices,West,266
+2023-04,Smartphones,North,373
+2023-04,Smartphones,South,487
+2023-04,Smartphones,East,700
+2023-04,Smartphones,West,415
+2023-04,Laptops,North,113
+2023-04,Laptops,South,341
+2023-04,Laptops,East,876
+2023-04,Laptops,West,445
+2023-04,Tablets,North,664
+2023-04,Tablets,South,997
+2023-04,Tablets,East,439
+2023-04,Tablets,West,191
+2023-04,Cameras,North,466
+2023-04,Cameras,South,554
+2023-04,Cameras,East,527
+2023-04,Cameras,West,608
+2023-04,Audio Devices,North,875
+2023-04,Audio Devices,South,134
+2023-04,Audio Devices,East,305
+2023-04,Audio Devices,West,180
+2023-05,Smartphones,North,661
+2023-05,Smartphones,South,971
+2023-05,Smartphones,East,487
+2023-05,Smartphones,West,101
+2023-05,Laptops,North,489
+2023-05,Laptops,South,665
+2023-05,Laptops,East,205
+2023-05,Laptops,West,871
+2023-05,Tablets,North,921
+2023-05,Tablets,South,576
+2023-05,Tablets,East,802
+2023-05,Tablets,West,501
+2023-05,Cameras,North,829
+2023-05,Cameras,South,655
+2023-05,Cameras,East,261
+2023-05,Cameras,West,301
+2023-05,Audio Devices,North,369
+2023-05,Audio Devices,South,962
+2023-05,Audio Devices,East,915
+2023-05,Audio Devices,West,370
+2023-06,Smartphones,North,555
+2023-06,Smartphones,South,561
+2023-06,Smartphones,East,826
+2023-06,Smartphones,West,351
+2023-06,Laptops,North,801
+2023-06,Laptops,South,395
+2023-06,Laptops,East,824
+2023-06,Laptops,West,819
+2023-06,Tablets,North,848
+2023-06,Tablets,South,437
+2023-06,Tablets,East,978
+2023-06,Tablets,West,152
+2023-06,Cameras,North,891
+2023-06,Cameras,South,316
+2023-06,Cameras,East,863
+2023-06,Cameras,West,287
+2023-06,Audio Devices,North,479
+2023-06,Audio Devices,South,592
+2023-06,Audio Devices,East,140
+2023-06,Audio Devices,West,256
+2023-07,Smartphones,North,114
+2023-07,Smartphones,South,912
+2023-07,Smartphones,East,164
+2023-07,Smartphones,West,956
+2023-07,Laptops,North,938
+2023-07,Laptops,South,620
+2023-07,Laptops,East,443
+2023-07,Laptops,West,228
+2023-07,Tablets,North,747
+2023-07,Tablets,South,571
+2023-07,Tablets,East,162
+2023-07,Tablets,West,238
+2023-07,Cameras,North,598
+2023-07,Cameras,South,692
+2023-07,Cameras,East,491
+2023-07,Cameras,West,774
+2023-07,Audio Devices,North,518
+2023-07,Audio Devices,South,388
+2023-07,Audio Devices,East,478
+2023-07,Audio Devices,West,872
+2023-08,Smartphones,North,589
+2023-08,Smartphones,South,330
+2023-08,Smartphones,East,140
+2023-08,Smartphones,West,127
+2023-08,Laptops,North,234
+2023-08,Laptops,South,300
+2023-08,Laptops,East,939
+2023-08,Laptops,West,879
+2023-08,Tablets,North,132
+2023-08,Tablets,South,147
+2023-08,Tablets,East,602
+2023-08,Tablets,West,506
+2023-08,Cameras,North,673
+2023-08,Cameras,South,827
+2023-08,Cameras,East,904
+2023-08,Cameras,West,198
+2023-08,Audio Devices,North,783
+2023-08,Audio Devices,South,971
+2023-08,Audio Devices,East,825
+2023-08,Audio Devices,West,646
+2023-09,Smartphones,North,838
+2023-09,Smartphones,South,712
+2023-09,Smartphones,East,561
+2023-09,Smartphones,West,742
+2023-09,Laptops,North,868
+2023-09,Laptops,South,104
+2023-09,Laptops,East,317
+2023-09,Laptops,West,602
+2023-09,Tablets,North,866
+2023-09,Tablets,South,497
+2023-09,Tablets,East,970
+2023-09,Tablets,West,894
+2023-09,Cameras,North,492
+2023-09,Cameras,South,306
+2023-09,Cameras,East,114
+2023-09,Cameras,West,957
+2023-09,Audio Devices,North,653
+2023-09,Audio Devices,South,991
+2023-09,Audio Devices,East,560
+2023-09,Audio Devices,West,790
+2023-10,Smartphones,North,674
+2023-10,Smartphones,South,963
+2023-10,Smartphones,East,842
+2023-10,Smartphones,West,340
+2023-10,Laptops,North,663
+2023-10,Laptops,South,195
+2023-10,Laptops,East,999
+2023-10,Laptops,West,833
+2023-10,Tablets,North,584
+2023-10,Tablets,South,506
+2023-10,Tablets,East,330
+2023-10,Tablets,West,848
+2023-10,Cameras,North,754
+2023-10,Cameras,South,270
+2023-10,Cameras,East,640
+2023-10,Cameras,West,135
+2023-10,Audio Devices,North,624
+2023-10,Audio Devices,South,259
+2023-10,Audio Devices,East,938
+2023-10,Audio Devices,West,798
+2023-11,Smartphones,North,342
+2023-11,Smartphones,South,185
+2023-11,Smartphones,East,895
+2023-11,Smartphones,West,677
+2023-11,Laptops,North,781
+2023-11,Laptops,South,656
+2023-11,Laptops,East,673
+2023-11,Laptops,West,745
+2023-11,Tablets,North,895
+2023-11,Tablets,South,127
+2023-11,Tablets,East,719
+2023-11,Tablets,West,655
+2023-11,Cameras,North,439
+2023-11,Cameras,South,897
+2023-11,Cameras,East,430
+2023-11,Cameras,West,739
+2023-11,Audio Devices,North,605
+2023-11,Audio Devices,South,447
+2023-11,Audio Devices,East,572
+2023-11,Audio Devices,West,330
+2023-12,Smartphones,North,289
+2023-12,Smartphones,South,324
+2023-12,Smartphones,East,484
+2023-12,Smartphones,West,476
+2023-12,Laptops,North,382
+2023-12,Laptops,South,732
+2023-12,Laptops,East,727
+2023-12,Laptops,West,844
+2023-12,Tablets,North,358
+2023-12,Tablets,South,458
+2023-12,Tablets,East,809
+2023-12,Tablets,West,555
+2023-12,Cameras,North,510
+2023-12,Cameras,South,748
+2023-12,Cameras,East,417
+2023-12,Cameras,West,776
+2023-12,Audio Devices,North,324
+2023-12,Audio Devices,South,918
+2023-12,Audio Devices,East,333
+2023-12,Audio Devices,West,783
