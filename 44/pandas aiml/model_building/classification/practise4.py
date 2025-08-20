@@ -94,3 +94,5 @@ plt.show()
 print("--"*5)
 print(accuracy_score(result['y'],result['y_pred']))
 print("--"*5)
+
+print(RocCurveDisplay.from_estimator(model,result['y'],result['y_pred']))
