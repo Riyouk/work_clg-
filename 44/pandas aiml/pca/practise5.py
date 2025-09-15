@@ -41,3 +41,4 @@ print("Accuracy",accuracy_score(y_test,y_pred))
 
 print("explained variance : ",pca.explained_variance_)
 print("explained variance in ratio  :",pca.explained_variance_ratio_)
+print(pca)

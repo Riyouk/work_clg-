@@ -1,0 +1,51 @@
+LoanAmount,ApplicantIncome,Credit_History,Loan_Term,Dependents,Education,Property_Area,Loan_Status
+152,10838,1,36,0,Graduate,Rural,0
+485,13080,0,120,3,Not Graduate,Semiurban,0
+398,7393,1,24,1,Graduate,Rural,1
+320,12627,1,360,3,Not Graduate,Rural,1
+156,10792,0,60,1,Graduate,Semiurban,0
+121,12555,1,120,3,Graduate,Urban,1
+238,12253,0,48,2,Graduate,Semiurban,1
+70,10433,1,180,3,Graduate,Urban,0
+152,12233,0,360,2,Graduate,Rural,1
+171,13016,1,180,2,Not Graduate,Urban,0
+264,9513,1,12,3,Graduate,Urban,1
+380,4612,0,12,2,Graduate,Urban,0
+137,9041,0,360,0,Not Graduate,Rural,0
+422,11555,1,360,2,Not Graduate,Rural,1
+149,8235,1,48,1,Graduate,Urban,0
+409,7486,1,360,3,Not Graduate,Urban,0
+201,9099,1,36,0,Graduate,Semiurban,1
+180,11670,0,180,3,Graduate,Urban,0
+199,12748,1,120,1,Not Graduate,Semiurban,1
+358,2775,0,240,1,Not Graduate,Urban,0
+307,14206,1,360,1,Not Graduate,Semiurban,1
+393,10226,1,60,2,Graduate,Rural,1
+463,5152,1,12,2,Not Graduate,Urban,1
+343,12147,0,36,3,Not Graduate,Urban,1
+435,3585,1,240,3,Not Graduate,Urban,0
+241,5943,1,120,0,Not Graduate,Urban,1
+493,9555,1,240,0,Graduate,Semiurban,1
+326,5073,1,360,3,Graduate,Urban,1
+210,3021,1,48,2,Graduate,Rural,0
+363,13653,1,12,1,Not Graduate,Rural,0
+71,12805,0,12,3,Not Graduate,Urban,1
+302,5843,1,48,0,Graduate,Rural,1
+285,9989,1,180,2,Graduate,Urban,1
+394,11692,1,24,3,Graduate,Urban,1
+98,14990,1,36,3,Graduate,Rural,0
+108,8873,1,12,2,Not Graduate,Urban,1
+219,7675,1,60,3,Graduate,Rural,1
+237,2161,1,12,2,Graduate,Semiurban,1
+320,6297,0,240,1,Graduate,Urban,0
+239,12173,0,12,2,Graduate,Semiurban,1
+495,2995,0,12,2,Graduate,Rural,1
+224,13534,1,24,2,Not Graduate,Semiurban,0
+495,14743,1,24,3,Not Graduate,Semiurban,0
+100,9629,1,120,3,Graduate,Rural,1
+413,13990,1,180,2,Graduate,Semiurban,1
+104,11467,0,60,3,Graduate,Semiurban,0
+293,3016,1,12,0,Graduate,Rural,1
+369,9869,1,12,0,Graduate,Semiurban,1
+180,8439,0,36,3,Graduate,Rural,1
+356,9892,0,24,3,Not Graduate,Semiurban,0
