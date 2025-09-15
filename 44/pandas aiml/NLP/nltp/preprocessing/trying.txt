@@ -1,0 +1,491 @@
+word	pos_key	pos_description
+lorem	NN	Noun, singular
+ipsum	NN	Noun, singular
+dolor	NN	Noun, singular
+sit	NN	Noun, singular
+amet	VBD	Verb, past tense
+consectetur	JJ	Adjective
+adipisicing	VBG	Verb, gerund or present participle
+elit	JJ	Adjective
+minus	NN	Noun, singular
+dicta	NN	Noun, singular
+nemo	NN	Noun, singular
+labore	RBR	Adverb, comparative
+consequatur	NN	Noun, singular
+dolorum	NN	Noun, singular
+odit	NN	Noun, singular
+maxime	NN	Noun, singular
+sequi	NN	Noun, singular
+neque	NN	Noun, singular
+nesciunt	NN	Noun, singular
+sunt	NN	Noun, singular
+repellendus	NN	Noun, singular
+perspiciatis	NN	Noun, singular
+cupiditate	NN	Noun, singular
+totam	NN	Noun, singular
+sed	VBD	Verb, past tense
+provident	JJ	Adjective
+et	FW	Foreign word
+explicabo	FW	Foreign word
+quaerat	FW	Foreign word
+corrupti	NN	Noun, singular
+laudantium	NN	Noun, singular
+fugit	NN	Noun, singular
+dolores	VBZ	Verb, 3rd person singular present
+vitae	JJ	Adjective
+eum	NN	Noun, singular
+tempora	NNS	Noun, plural
+iste	VBP	Verb, non-3rd person singular present
+magnam	JJ	Adjective
+excepturi	NN	Noun, singular
+animi	NN	Noun, singular
+reprehenderit	NN	Noun, singular
+libero	NN	Noun, singular
+aut	NN	Noun, singular
+molestias	JJ	Adjective
+adipisci	NN	Noun, singular
+voluptas	NNS	Noun, plural
+atque	JJ	Adjective
+asperiores	NNS	Noun, plural
+laboriosam	VBP	Verb, non-3rd person singular present
+debitis	NN	Noun, singular
+deserunt	NN	Noun, singular
+aspernatur	NN	Noun, singular
+beatae	NN	Noun, singular
+est	JJS	Adjective, superlative
+itaque	NN	Noun, singular
+hic	JJ	Adjective
+numquam	JJ	Adjective
+fugiat	NN	Noun, singular
+fugit	JJ	Adjective
+cupiditate	NN	Noun, singular
+veniam	NN	Noun, singular
+nam	JJ	Adjective
+error	NN	Noun, singular
+quae	NN	Noun, singular
+voluptatibus	NN	Noun, singular
+facilis	NN	Noun, singular
+deleniti	NN	Noun, singular
+eius	NN	Noun, singular
+iusto	NN	Noun, singular
+laboriosam	NN	Noun, singular
+harum	NN	Noun, singular
+inventore	NN	Noun, singular
+laborum	NN	Noun, singular
+id	NN	Noun, singular
+odit	NN	Noun, singular
+deserunt	NN	Noun, singular
+excepturi	NN	Noun, singular
+molestiae	NN	Noun, singular
+ipsum	NN	Noun, singular
+eligendi	NN	Noun, singular
+debitis	NN	Noun, singular
+sunt	NN	Noun, singular
+ratione	NN	Noun, singular
+modi	NN	Noun, singular
+accusamus	NN	Noun, singular
+assumenda	NN	Noun, singular
+enim	NN	Noun, singular
+qui	NN	Noun, singular
+dolorem	NN	Noun, singular
+asperiores	VBZ	Verb, 3rd person singular present
+rerum	JJ	Adjective
+adipisci	IN	Preposition or subordinating conjunction
+dolor	NN	Noun, singular
+exercitationem	NN	Noun, singular
+expedita	JJ	Adjective
+pariatur	NN	Noun, singular
+dolores	NNS	Noun, plural
+deserunt	VBP	Verb, non-3rd person singular present
+nemo	JJ	Adjective
+nisi	JJ	Adjective
+quaerat	NN	Noun, singular
+ipsum	NN	Noun, singular
+sapiente	NN	Noun, singular
+ut	JJ	Adjective
+quasi	NN	Noun, singular
+fugit	NN	Noun, singular
+sunt	NN	Noun, singular
+eius	NN	Noun, singular
+dignissimos	NN	Noun, singular
+repudiandae	NN	Noun, singular
+nesciunt	NN	Noun, singular
+debitis	NN	Noun, singular
+ipsa	NN	Noun, singular
+ad	NN	Noun, singular
+doloribus	NN	Noun, singular
+aliquam	NN	Noun, singular
+soluta	NN	Noun, singular
+pariatur	NN	Noun, singular
+blanditiis	NN	Noun, singular
+eius	NN	Noun, singular
+repellendus	NN	Noun, singular
+debitis	NN	Noun, singular
+doloremque	NN	Noun, singular
+quos	NN	Noun, singular
+illum	NN	Noun, singular
+cupiditate	NN	Noun, singular
+maxime	NN	Noun, singular
+esse	NN	Noun, singular
+ipsam	NN	Noun, singular
+beatae	NN	Noun, singular
+ducimus	NN	Noun, singular
+culpa	NN	Noun, singular
+accusamus	NN	Noun, singular
+iste	NN	Noun, singular
+hic	JJ	Adjective
+consequuntur	NN	Noun, singular
+eaque	NN	Noun, singular
+odio	NN	Noun, singular
+enim	NN	Noun, singular
+iusto	NN	Noun, singular
+nesciunt	NN	Noun, singular
+ea	NN	Noun, singular
+nostrum	NN	Noun, singular
+ipsam	NN	Noun, singular
+molestias	NN	Noun, singular
+ab	JJ	Adjective
+error	NN	Noun, singular
+aspernatur	NN	Noun, singular
+optio	NN	Noun, singular
+aliquid	NN	Noun, singular
+minima	NN	Noun, singular
+magni	NN	Noun, singular
+nemo	NN	Noun, singular
+architecto	NN	Noun, singular
+nostrum	NN	Noun, singular
+vitae	NN	Noun, singular
+placeat	NN	Noun, singular
+obcaecati	JJ	Adjective
+debitis	NN	Noun, singular
+voluptatem	NN	Noun, singular
+veritatis	NN	Noun, singular
+ipsa	NN	Noun, singular
+inventore	NN	Noun, singular
+tempora	NN	Noun, singular
+fuga	NN	Noun, singular
+facilis	NN	Noun, singular
+perferendis	NN	Noun, singular
+iusto	NN	Noun, singular
+praesentium	NN	Noun, singular
+atque	NN	Noun, singular
+obcaecati	IN	Preposition or subordinating conjunction
+magni	NN	Noun, singular
+ut	JJ	Adjective
+illum	NN	Noun, singular
+voluptates	NNS	Noun, plural
+soluta	VBP	Verb, non-3rd person singular present
+facere	RB	Adverb
+iusto	JJ	Adjective
+enim	NN	Noun, singular
+commodi	NN	Noun, singular
+modi	NN	Noun, singular
+quidem	NN	Noun, singular
+placeat	NN	Noun, singular
+distinctio	NN	Noun, singular
+minima	NN	Noun, singular
+est	JJS	Adjective, superlative
+explicabo	NN	Noun, singular
+incidunt	NN	Noun, singular
+dolor	NN	Noun, singular
+eveniet	JJ	Adjective
+et	CC	Coordinating conjunction
+ducimus	JJ	Adjective
+eos	NN	Noun, singular
+assumenda	NN	Noun, singular
+deleniti	NN	Noun, singular
+atque	NN	Noun, singular
+reprehenderit	NN	Noun, singular
+maxime	NN	Noun, singular
+voluptates	VBZ	Verb, 3rd person singular present
+mollitia	JJ	Adjective
+id	NN	Noun, singular
+nulla	NN	Noun, singular
+deserunt	NN	Noun, singular
+ea	NN	Noun, singular
+consequatur	NN	Noun, singular
+incidunt	NN	Noun, singular
+laborum	NN	Noun, singular
+alias	IN	Preposition or subordinating conjunction
+ratione	NN	Noun, singular
+suscipit	NN	Noun, singular
+explicabo	VBP	Verb, non-3rd person singular present
+eos	JJ	Adjective
+similique	NN	Noun, singular
+doloribus	NN	Noun, singular
+consectetur	NN	Noun, singular
+inventore	NN	Noun, singular
+distinctio	NN	Noun, singular
+sequi	NN	Noun, singular
+aspernatur	NN	Noun, singular
+tempora	NN	Noun, singular
+quas	NN	Noun, singular
+nemo	NN	Noun, singular
+cumque	NN	Noun, singular
+fugiat	NN	Noun, singular
+non	NN	Noun, singular
+illum	NN	Noun, singular
+molestiae	NN	Noun, singular
+commodi	NN	Noun, singular
+qui	NN	Noun, singular
+itaque	NN	Noun, singular
+accusamus	NN	Noun, singular
+molestias	NN	Noun, singular
+corrupti	NN	Noun, singular
+illo	NN	Noun, singular
+fugiat	NN	Noun, singular
+aut	NN	Noun, singular
+officia	JJ	Adjective
+porro	NN	Noun, singular
+libero	NN	Noun, singular
+omnis	NN	Noun, singular
+nesciunt	NN	Noun, singular
+necessitatibus	NN	Noun, singular
+deleniti	NN	Noun, singular
+harum	NN	Noun, singular
+est	JJS	Adjective, superlative
+vero	NN	Noun, singular
+nisi	NN	Noun, singular
+dolorem	NN	Noun, singular
+totam	NN	Noun, singular
+cumque	NN	Noun, singular
+laboriosam	NN	Noun, singular
+assumenda	NN	Noun, singular
+optio	NN	Noun, singular
+officiis	IN	Preposition or subordinating conjunction
+dolor	NN	Noun, singular
+eos	NN	Noun, singular
+eum	NN	Noun, singular
+non	NN	Noun, singular
+praesentium	NN	Noun, singular
+facere	RB	Adverb
+sunt	VBZ	Verb, 3rd person singular present
+tempore	NN	Noun, singular
+odio	NN	Noun, singular
+ipsum	NN	Noun, singular
+magni	NN	Noun, singular
+cupiditate	NN	Noun, singular
+voluptatem	NN	Noun, singular
+possimus	NN	Noun, singular
+animi	NN	Noun, singular
+ab	JJ	Adjective
+provident	NN	Noun, singular
+placeat	NN	Noun, singular
+nesciunt	NN	Noun, singular
+vel	NN	Noun, singular
+aut	IN	Preposition or subordinating conjunction
+assumenda	JJ	Adjective
+pariatur	NN	Noun, singular
+asperiores	NNS	Noun, plural
+neque	JJ	Adjective
+aperiam	JJ	Adjective
+impedit	NN	Noun, singular
+enim	NN	Noun, singular
+omnis	NN	Noun, singular
+inventore	NN	Noun, singular
+eaque	NN	Noun, singular
+dolor	NN	Noun, singular
+deleniti	NN	Noun, singular
+illo	NN	Noun, singular
+repellendus	NN	Noun, singular
+exercitationem	NN	Noun, singular
+eaque	NN	Noun, singular
+magnam	NN	Noun, singular
+sed	VBD	Verb, past tense
+repudiandae	JJ	Adjective
+quam	NN	Noun, singular
+commodi	NN	Noun, singular
+beatae	NN	Noun, singular
+nihil	JJ	Adjective
+minus	NN	Noun, singular
+sapiente	NN	Noun, singular
+quibusdam	NN	Noun, singular
+ipsum	NN	Noun, singular
+animi	NN	Noun, singular
+dolorem	NN	Noun, singular
+voluptatibus	NN	Noun, singular
+voluptas	NNS	Noun, plural
+commodi	VBP	Verb, non-3rd person singular present
+corporis	JJ	Adjective
+enim	NN	Noun, singular
+distinctio	NN	Noun, singular
+totam	NN	Noun, singular
+libero	NN	Noun, singular
+amet	VBD	Verb, past tense
+natus	JJ	Adjective
+odit	NN	Noun, singular
+eligendi	NN	Noun, singular
+vel	NN	Noun, singular
+perspiciatis	NN	Noun, singular
+ducimus	NN	Noun, singular
+quia	NN	Noun, singular
+eaque	NN	Noun, singular
+id	NN	Noun, singular
+corrupti	NN	Noun, singular
+ipsam	NN	Noun, singular
+aut	NN	Noun, singular
+dicta	NN	Noun, singular
+deleniti	NN	Noun, singular
+impedit	NN	Noun, singular
+alias	NN	Noun, singular
+ea	VBP	Verb, non-3rd person singular present
+hic	JJ	Adjective
+recusandae	NN	Noun, singular
+quia	NN	Noun, singular
+minus	NN	Noun, singular
+beatae	NN	Noun, singular
+consequatur	NN	Noun, singular
+corrupti	NN	Noun, singular
+nulla	NN	Noun, singular
+dicta	NN	Noun, singular
+similique	NN	Noun, singular
+quo	NN	Noun, singular
+magni	NN	Noun, singular
+nisi	JJ	Adjective
+cupiditate	NN	Noun, singular
+sit	NN	Noun, singular
+aperiam	NN	Noun, singular
+molestias	NN	Noun, singular
+minima	NN	Noun, singular
+labore	RBR	Adverb, comparative
+eligendi	JJ	Adjective
+enim	NN	Noun, singular
+quod	NN	Noun, singular
+perferendis	NN	Noun, singular
+temporibus	NN	Noun, singular
+officiis	IN	Preposition or subordinating conjunction
+molestiae	NN	Noun, singular
+possimus	NN	Noun, singular
+asperiores	VBZ	Verb, 3rd person singular present
+accusantium	JJ	Adjective
+voluptatum	NN	Noun, singular
+excepturi	NN	Noun, singular
+porro	NN	Noun, singular
+officiis	NN	Noun, singular
+eaque	NN	Noun, singular
+laborum	NN	Noun, singular
+odio	NN	Noun, singular
+minima	NN	Noun, singular
+recusandae	NN	Noun, singular
+sequi	NN	Noun, singular
+enim	NN	Noun, singular
+accusamus	NN	Noun, singular
+placeat	NN	Noun, singular
+vero	NN	Noun, singular
+laborum	NN	Noun, singular
+blanditiis	NN	Noun, singular
+dicta	NN	Noun, singular
+quaerat	NN	Noun, singular
+veniam	NN	Noun, singular
+vero	NN	Noun, singular
+ullam	JJ	Adjective
+sequi	NN	Noun, singular
+laboriosam	NN	Noun, singular
+tenetur	NN	Noun, singular
+blanditiis	NN	Noun, singular
+impedit	NN	Noun, singular
+ipsum	NN	Noun, singular
+inventore	NN	Noun, singular
+assumenda	NN	Noun, singular
+quibusdam	NN	Noun, singular
+suscipit	NN	Noun, singular
+enim	VBP	Verb, non-3rd person singular present
+nulla	JJ	Adjective
+provident	NN	Noun, singular
+sit	NN	Noun, singular
+vel	NN	Noun, singular
+rerum	NN	Noun, singular
+accusantium	NN	Noun, singular
+aliquid	NN	Noun, singular
+labore	NN	Noun, singular
+quos	NN	Noun, singular
+itaque	NN	Noun, singular
+hic	JJ	Adjective
+ex	NN	Noun, singular
+aspernatur	NN	Noun, singular
+architecto	NN	Noun, singular
+tenetur	NN	Noun, singular
+aut	NN	Noun, singular
+recusandae	NN	Noun, singular
+assumenda	NN	Noun, singular
+molestias	NN	Noun, singular
+ipsum	NN	Noun, singular
+labore	NN	Noun, singular
+incidunt	NN	Noun, singular
+distinctio	NN	Noun, singular
+tenetur	NN	Noun, singular
+eligendi	NN	Noun, singular
+perspiciatis	NN	Noun, singular
+neque	JJ	Adjective
+possimus	NN	Noun, singular
+quos	NN	Noun, singular
+fugit	JJ	Adjective
+veritatis	NN	Noun, singular
+ex	NN	Noun, singular
+cumque	NN	Noun, singular
+eum	NN	Noun, singular
+asperiores	VBZ	Verb, 3rd person singular present
+numquam	JJ	Adjective
+quidem	NN	Noun, singular
+quia	NN	Noun, singular
+omnis	NN	Noun, singular
+velit	FW	Foreign word
+provident	NN	Noun, singular
+delectus	NN	Noun, singular
+alias	NN	Noun, singular
+voluptatum	NN	Noun, singular
+animi	NN	Noun, singular
+fugit	JJ	Adjective
+nesciunt	NN	Noun, singular
+eum	NN	Noun, singular
+ipsa	NN	Noun, singular
+fuga	NN	Noun, singular
+recusandae	NN	Noun, singular
+debitis	NN	Noun, singular
+sint	NN	Noun, singular
+ducimus	NN	Noun, singular
+excepturi	NN	Noun, singular
+expedita	NN	Noun, singular
+doloremque	NN	Noun, singular
+assumenda	NN	Noun, singular
+error	NN	Noun, singular
+molestias	NN	Noun, singular
+exercitationem	FW	Foreign word
+perferendis	NN	Noun, singular
+perspiciatis	NN	Noun, singular
+atque	NN	Noun, singular
+aut	NN	Noun, singular
+perferendis	NN	Noun, singular
+minima	NN	Noun, singular
+accusantium	NN	Noun, singular
+enim	NN	Noun, singular
+facere	RB	Adverb
+tempora	JJ	Adjective
+veniam	NN	Noun, singular
+est	JJS	Adjective, superlative
+doloremque	NN	Noun, singular
+pariatur	NN	Noun, singular
+iste	NN	Noun, singular
+unde	JJ	Adjective
+quaerat	NN	Noun, singular
+voluptatem	NN	Noun, singular
+deserunt	NN	Noun, singular
+culpa	NN	Noun, singular
+libero	NN	Noun, singular
+voluptate	NN	Noun, singular
+inventore	NN	Noun, singular
+quis	NN	Noun, singular
+eligendi	NN	Noun, singular
+dolores	VBZ	Verb, 3rd person singular present
+voluptatibus	JJ	Adjective
+optio	IN	Preposition or subordinating conjunction
+iusto	JJ	Adjective
+alias	NNS	Noun, plural
+nemo	JJ	Adjective
+nesciunt	NN	Noun, singular
+explicabo	NN	Noun, singular
+rem	NN	Noun, singular
+distinctio	NN	Noun, singular
+dicta	NN	Noun, singular
+reprehenderit	NN	Noun, singular
+ad	NN	Noun, singular
