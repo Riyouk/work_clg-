@@ -1,0 +1,11 @@
+words,post_key,pos_description
+lorem,NN,Noun, singular
+ipsum,NN,Noun, plural
+dolor,NN,Verb, past tense
+sit,NN,Verb, gerund or present participle
+amet,VBD,Verb, non-3rd person singular present
+consectetur,JJ,Verb, 3rd person singular present
+adipisicing,VBG,Adjective
+elit,JJ,Adjective, superlative
+minus,NN,Adverb, comparative
+dictum,NN,Foreign word

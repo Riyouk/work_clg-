@@ -1,0 +1,5 @@
+('striped', 'VBN')
+('bats', 'NNS')
+('hanging', 'VBG')
+('feet', 'NNS')
+('best', 'RB')
