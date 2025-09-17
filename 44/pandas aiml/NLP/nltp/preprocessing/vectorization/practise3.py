@@ -61,8 +61,9 @@ def preprocess_reviews(text):
 df["cleaned_reviews"] = df["review"].apply(preprocess_reviews)
 print(df[["review","cleaned_reviews"]].head(10))
 
-cv = CountVectorizer(max_features=1500)
-X = cv.fit_transform(df["cleaned_reviews"]).toarray()
+# cv = CountVectorizer(max_features=1500)
+tf = TfidfVectorizer(max_features=1500)
+X = tf.fit_transform(df["cleaned_reviews"]).toarray()
 # print(X.shape)
 print(X[0])
 #label encoding 
