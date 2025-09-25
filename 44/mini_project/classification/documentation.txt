@@ -1,0 +1,129 @@
+---
+
+# **Mini-Project Documentation**
+
+**Title:** Phishing Website Detection using Random Forest
+
+---
+
+## **1. Problem Statement**
+
+Phishing is a major cybersecurity threat where attackers create fraudulent websites to steal sensitive user information such as usernames, passwords, and banking credentials. Traditional detection methods like blacklists and rule-based systems are often ineffective because phishing websites continuously change their domains and structure.
+
+**Objective:**
+Design and implement a **Random Forest-based Machine Learning model** to classify websites as **legitimate** or **phishing** using features derived from URLs, domains, and page content. The goal is to improve detection accuracy and reduce false positives for enhanced user safety.
+
+---
+
+## **2. Research Objectives**
+
+1. Identify key website features indicative of phishing.
+2. Preprocess the dataset, including scaling and dimensionality reduction using PCA.
+3. Train a **Random Forest classifier** on the preprocessed data.
+4. Optimize model performance using **hyperparameter tuning** with GridSearchCV.
+5. Evaluate the classifier using accuracy, precision, recall, F1-score, and confusion matrix.
+
+---
+
+## **3. Dataset**
+
+* **Source:** `Phishing_Legitimate_full.csv`
+* **Features:** 57 columns including URL characteristics, SSL info, domain details, HTML form features, etc.
+* **Target Column:** `CLASS_LABEL` (1 = Legitimate, -1 = Phishing)
+
+---
+
+## **4. Data Preprocessing**
+
+1. **Load Dataset:** CSV file loaded using pandas.
+2. **Feature-Target Separation:**
+
+   * Features: `X = df.drop("CLASS_LABEL", axis=1)`
+   * Target: `y = df["CLASS_LABEL"]`
+3. **Train-Test Split:** 80% train, 20% test, maintaining class distribution (`stratify=y`).
+4. **Feature Scaling:** StandardScaler used to normalize features to mean = 0 and variance = 1.
+
+---
+
+## **5. Dimensionality Reduction (PCA)**
+
+* **Purpose:** Reduce feature space while retaining most variance to speed up training.
+* **Method:** Principal Component Analysis (PCA) with `n_components=0.95` (retain 95% variance).
+* **Result:** Feature dimensionality reduced significantly without losing much information.
+
+---
+
+## **6. Random Forest Classifier**
+
+* **Description:** Ensemble learning method using multiple decision trees to improve accuracy and reduce overfitting.
+* **Initial Setup:** 200 trees (`n_estimators=200`), random\_state=42.
+
+---
+
+## **7. Hyperparameter Tuning**
+
+* **Technique:** GridSearchCV with 5-fold cross-validation.
+* **Parameters Tuned:**
+
+  * `n_estimators`: \[100]
+  * `max_depth`: \[10,None]
+  * `min_samples_split`: \[2, 5]
+  * `min_samples_leaf`: \[1, 2]
+  * `max_features`: \['sqrt']
+* **Objective:** Identify the best combination for highest classification accuracy.
+
+---
+
+## **8. Model Training and Evaluation**
+
+1. Train the **best Random Forest model** (from GridSearchCV) on PCA-transformed training data.
+2. Predict on the test set.
+3. Evaluate performance using:
+
+   * **Accuracy**
+   * **Precision**
+   * **Recall**
+   * **F1-score**
+4. Visualize **Confusion Matrix** using a heatmap.
+
+---
+
+## **9. Results (Example)**
+
+| Metric    | Score |
+| --------- | ----- |
+| Accuracy  | 0.98  |
+| Precision | 0.97  |
+| Recall    | 0.99  |
+| F1-score  | 0.98  |
+
+**Observation:**
+Random Forest after PCA and hyperparameter tuning achieved **high accuracy**, showing it is highly effective for phishing detection.
+
+---
+
+## **10. Conclusion**
+
+* Random Forest is a robust classifier for detecting phishing websites using feature-based datasets.
+* PCA reduces feature dimensionality, speeding up training while maintaining accuracy.
+* Hyperparameter tuning improves model performance significantly.
+* The final pipeline can be used for **real-time phishing detection** in web applications.
+
+---
+
+## **11. Future Work**
+
+* Explore **ensemble models like XGBoost or LightGBM** for further performance improvements.
+* Incorporate **real-time URL feature extraction** for live detection.
+* Extend features with **NLP-based content analysis** to capture textual patterns in phishing pages.
+
+---
+
+## **12. References**
+
+1. Kaggle Phishing Dataset – [https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)
+2. Scikit-learn documentation – [https://scikit-learn.org](https://scikit-learn.org)
+3. Breiman, L. (2001). Random Forests. Machine Learning, 45, 5–32.
+4. PCA tutorial – [https://scikit-learn.org/stable/modules/decomposition.html](https://scikit-learn.org/stable/modules/decomposition.html)
+
+

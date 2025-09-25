@@ -1,0 +1,35 @@
+Problem Statement: Real Estate Property Price Prediction
+
+The real estate market is influenced by multiple factors, including location, property type, size, and local market conditions. Accurate prediction of property sale prices is crucial for buyers, investors, and real estate professionals to make informed decisions and optimize their investments.
+
+This project aims to develop a regression model to predict property sale prices using the Real Estate Property Transactions dataset, which includes features such as:
+
+-Date & Year – when the property transaction occurred
+
+-Locality – city or neighborhood of the property
+
+-Estimated Value – estimated market value of the property
+
+-Property Type – single-family, duplex, detached house, etc.
+
+-Residential Type – specific house type (Detached House, Duplex, etc.)
+
+-Number of Rooms & Bathrooms – size and capacity of the property
+
+-Carpet Area – area in square feet
+
+-Property Tax Rate – tax rate applied to the property
+
+-Orientation/Face – direction the property faces
+
+The objectives of this project are:
+
+To build a regression model that can accurately predict property sale prices.
+
+To identify the key factors affecting property prices, such as locality, property type, and size.
+
+To provide actionable insights for potential investors, buyers, and real estate agencies.
+
+To evaluate the model’s performance using metrics like RMSE and R² score, ensuring reliable predictions.
+
+The final goal is to create a model that helps stakeholders understand how property attributes and local conditions impact sale prices, enabling smarter decision-making in the real estate market.

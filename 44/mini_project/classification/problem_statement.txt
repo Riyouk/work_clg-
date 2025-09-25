@@ -1,0 +1,11 @@
+📌 Problem Statement: Phishing Website Detection
+
+Phishing is one of the most common and dangerous cybersecurity threats, where attackers create fraudulent websites that mimic legitimate ones to trick users into disclosing sensitive information such as usernames, passwords, and banking details. Despite advancements in traditional security mechanisms such as blacklists, rule-based filters, and signature-based detection, phishing websites continue to evolve rapidly by changing domains, structures, and patterns, making traditional methods less effective.
+
+The major challenge lies in accurately distinguishing between legitimate websites and phishing websites in real time, as attackers often employ sophisticated obfuscation techniques such as:
+
+Using misleading URLs (e.g., paypa1.com instead of paypal.com).
+
+Embedding deceptive logos and HTTPS certificates to appear trustworthy.
+
+Redirecting users through multiple shortened links before landing on the malicious site.

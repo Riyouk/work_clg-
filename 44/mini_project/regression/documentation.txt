@@ -1,0 +1,185 @@
+Project Report: Real Estate Property Price Prediction Using Linear Regression
+1. Project Title
+
+Real Estate Property Price Prediction Using Linear Regression
+
+2. Objective
+
+The objective of this project is to predict the sale price of real estate properties based on key property features using a Linear Regression model. This model helps understand which features most affect property price, providing insights for buyers, sellers, and real estate analysts.
+
+3. Tools and Technologies
+
+Programming Language: Python 3.13
+
+Libraries:
+
+pandas – Data manipulation and preprocessing
+
+numpy – Numerical computations
+
+matplotlib & seaborn – Data visualization
+
+scipy – Statistical operations (winsorization)
+
+sklearn – Machine learning algorithms, preprocessing, and evaluation metrics
+
+IDE: VS Code / Jupyter Notebook
+
+Version Control: Git (optional)
+
+4. Dataset
+
+Source: real_estate_data.csv (local CSV)
+
+Number of records: 10,000 (example)
+
+Features:
+
+Estimated Value – Initial estimated value of the property (numerical)
+
+Residential – Residential type (categorical)
+
+num_rooms – Number of rooms (numerical)
+
+Property – Property type (categorical)
+
+carpet_area – Area in square feet (numerical)
+
+Sale Price – Target variable: actual sale price of the property (numerical)
+
+Data Cleaning: Missing values were handled using median for numerical features and predefined defaults for categorical features.
+
+5. Data Preprocessing
+5.1 Handling Missing Values
+
+Estimated Value → replaced with median
+
+carpet_area → replaced with median
+
+Property → replaced with '?'
+
+Residential → replaced with 'Detached House'
+
+5.2 Outlier Treatment
+
+Used Winsorization (1% lower and upper limits) on Estimated Value and carpet_area to reduce extreme outlier effects.
+
+5.3 Feature Selection
+
+Based on Linear Regression coefficient analysis from previous runs, only the most impactful features were selected:
+
+Estimated Value
+
+Residential
+
+num_rooms
+
+Property
+
+carpet_area
+
+5.4 Encoding Categorical Variables
+
+Manual label encoding using .map():
+
+property_map = {'Single Family':0, '?':1, 'Two Family':2, 'Three Family':3, 'Four Family':4}
+residential_map = {'Detached House':0, 'Duplex':1, 'Triplex':2, 'Fourplex':3}
+X_cat['Property'] = X['Property'].map(property_map)
+X_cat['Residential'] = X['Residential'].map(residential_map)
+
+5.5 Scaling Numerical Variables
+
+StandardScaler used for numerical features to normalize values:
+
+X_num = pd.DataFrame(scaler.fit_transform(X[numerical_features]),
+                     columns=numerical_features, index=X.index)
+
+5.6 Final Feature Set
+
+Combined categorical and scaled numerical features for modeling:
+
+X_processed = pd.concat([X_num, X_cat], axis=1)
+
+6. Model Building
+
+Algorithm: Linear Regression
+
+Train-Test Split: 80% training, 20% testing
+
+X_train, X_test, y_train, y_test = train_test_split(X_processed, y, test_size=0.2, random_state=42)
+
+
+Model Training:
+
+lr = LinearRegression()
+lr.fit(X_train, y_train)
+
+
+Prediction:
+
+y_pred = lr.predict(X_test)
+
+7. Model Evaluation
+Metric	Value
+Mean Squared Error (MSE)	313,602,652,078.39
+Root Mean Squared Error (RMSE)	560,002.37
+Mean Absolute Error (MAE)	211,209.12
+R² Score	0.642
+
+Interpretation:
+
+The model explains 64.2% of the variance in property prices.
+
+Estimated Value has the largest positive impact, while Residential type has a negative impact on price.
+
+8. Feature Importance
+Feature	Coefficient
+Estimated Value	850,973.67
+Residential	-199,305.67
+num_rooms	62,623.08
+Property	32,831.14
+carpet_area	12,946.72
+
+Insights:
+
+Estimated Value is the strongest predictor of sale price.
+
+Residential type (Detached House, Duplex) negatively impacts price due to encoding scheme.
+
+Number of rooms and property type moderately influence prices.
+
+9. Observations & Conclusion
+
+Linear Regression successfully predicts property prices using selected features.
+
+Feature selection improved model interpretability.
+
+Scaling and encoding were crucial for consistent model performance.
+
+Further improvements could include:
+
+Using Random Forest or Gradient Boosting for non-linear relationships.
+
+Adding more features (location coordinates, year of construction).
+
+Hyperparameter tuning for better accuracy.
+
+10. Screenshots / Visualizations
+
+Boxplots after Winsorization:
+
+(Add screenshot in your report)
+
+Feature Importance Bar Chart:
+
+(Optional visualization)
+
+11. References
+
+Scikit-learn documentation: https://scikit-learn.org/
+
+Pandas documentation: https://pandas.pydata.org/
+
+Seaborn & Matplotlib documentation: https://seaborn.pydata.org/
+
+Python Official Documentation: https://www.python.org/doc/
