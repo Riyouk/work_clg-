@@ -37,70 +37,70 @@
 
 import pandas as pd
 
-# -------------------------------------------------------------
-# 1️⃣ CREATE DATAFRAME
-# -------------------------------------------------------------
-data = {
-    'GENDER': ['B','G','G','G','B','B','B','G','B','B','G','B','G','B','B','G','G','B','B','B','G','B','B','B','G','B','G'],
-    'DA': [9,13,6,11,12,14,18,19,12,11,12,15,9,13,13,10,8,4,7,12,17,14,18,10,11,14,12],
-    'CIE': [45,134,125,120,72,107,146,150,36,129,147,138,82,110,36,107,103,24,42,42,129,99,133,69,94,72,70],
-    'ASSNT': [8,10,10,9,8,9,10,10,7,10,10,10,7,10,7,9,8,8,7,8,10,9,10,7,8,8,8]
-}
+# # -------------------------------------------------------------
+# # 1️⃣ CREATE DATAFRAME
+# # -------------------------------------------------------------
+# data = {
+#     'GENDER': ['B','G','G','G','B','B','B','G','B','B','G','B','G','B','B','G','G','B','B','B','G','B','B','B','G','B','G'],
+#     'DA': [9,13,6,11,12,14,18,19,12,11,12,15,9,13,13,10,8,4,7,12,17,14,18,10,11,14,12],
+#     'CIE': [45,134,125,120,72,107,146,150,36,129,147,138,82,110,36,107,103,24,42,42,129,99,133,69,94,72,70],
+#     'ASSNT': [8,10,10,9,8,9,10,10,7,10,10,10,7,10,7,9,8,8,7,8,10,9,10,7,8,8,8]
+# }
 
-df = pd.DataFrame(data)
+# df = pd.DataFrame(data)
 
-print("ORIGINAL DATA (first 5 rows):")
-print(df.head(), "\n")
+# print("ORIGINAL DATA (first 5 rows):")
+# print(df.head(), "\n")
 
-# -------------------------------------------------------------
-# 2️⃣ CREATE BINS AND LABELS FOR CIE (Continuous Marks)
-# -------------------------------------------------------------
-cie_bins = [0, 50, 100, 150]
-cie_labels = ['Low', 'Medium', 'High']
+# # -------------------------------------------------------------
+# # 2️⃣ CREATE BINS AND LABELS FOR CIE (Continuous Marks)
+# # -------------------------------------------------------------
+# cie_bins = [0, 50, 100, 150]
+# cie_labels = ['Low', 'Medium', 'High']
 
-# Create a new categorical column based on bins
-df['CIE_Level'] = pd.cut(df['CIE'], bins=cie_bins, labels=cie_labels)
+# # Create a new categorical column based on bins
+# df['CIE_Level'] = pd.cut(df['CIE'], bins=cie_bins, labels=cie_labels)
 
-# Verify grouping
-print("Data with CIE Levels:\n", df[['CIE', 'CIE_Level']].head(10), "\n")
+# # Verify grouping
+# print("Data with CIE Levels:\n", df[['CIE', 'CIE_Level']].head(10), "\n")
 
-# -------------------------------------------------------------
-# 3️⃣ PIVOT TABLES USING BINS
-# -------------------------------------------------------------
+# # -------------------------------------------------------------
+# # 3️⃣ PIVOT TABLES USING BINS
+# # -------------------------------------------------------------
 
-# 3.1️⃣ Mean DA and ASSNT grouped by GENDER and CIE Level
-pivot1 = pd.pivot_table(df, index=['GENDER', 'CIE_Level'], values=['DA', 'ASSNT'], aggfunc='mean')
-print("1️⃣ MEAN DA & ASSNT BY GENDER AND CIE LEVEL:\n", pivot1, "\n")
+# # 3.1️⃣ Mean DA and ASSNT grouped by GENDER and CIE Level
+# pivot1 = pd.pivot_table(df, index=['GENDER', 'CIE_Level'], values=['DA', 'ASSNT'], aggfunc='mean')
+# print("1️⃣ MEAN DA & ASSNT BY GENDER AND CIE LEVEL:\n", pivot1, "\n")
 
-# -------------------------------------------------------------
-# 3.2️⃣ Count of Students in Each CIE Level by Gender
-pivot2 = pd.pivot_table(df, index='CIE_Level', columns='GENDER', values='CIE', aggfunc='count', fill_value=0)
-print("2️⃣ COUNT OF STUDENTS IN EACH CIE LEVEL BY GENDER:\n", pivot2, "\n")
+# # -------------------------------------------------------------
+# # 3.2️⃣ Count of Students in Each CIE Level by Gender
+# pivot2 = pd.pivot_table(df, index='CIE_Level', columns='GENDER', values='CIE', aggfunc='count', fill_value=0)
+# print("2️⃣ COUNT OF STUDENTS IN EACH CIE LEVEL BY GENDER:\n", pivot2, "\n")
 
-# -------------------------------------------------------------
-# 3.3️⃣ Average CIE per DA Range
-da_bins = [0, 10, 15, 20]
-da_labels = ['Low', 'Mid', 'High']
-df['DA_Level'] = pd.cut(df['DA'], bins=da_bins, labels=da_labels)
+# # -------------------------------------------------------------
+# # 3.3️⃣ Average CIE per DA Range
+# da_bins = [0, 10, 15, 20]
+# da_labels = ['Low', 'Mid', 'High']
+# df['DA_Level'] = pd.cut(df['DA'], bins=da_bins, labels=da_labels)
 
-pivot3 = pd.pivot_table(df, index='DA_Level', values='CIE', aggfunc=['mean', 'max', 'min'])
-print("3️⃣ CIE STATS BY DA LEVEL:\n", pivot3, "\n")
+# pivot3 = pd.pivot_table(df, index='DA_Level', values='CIE', aggfunc=['mean', 'max', 'min'])
+# print("3️⃣ CIE STATS BY DA LEVEL:\n", pivot3, "\n")
 
-# -------------------------------------------------------------
-# 3.4️⃣ Two-level Pivot: DA Level × CIE Level
-pivot4 = pd.pivot_table(df, index='DA_Level', columns='CIE_Level', values='ASSNT', aggfunc='mean')
-print("4️⃣ MEAN ASSNT SCORE BY DA LEVEL AND CIE LEVEL:\n", pivot4, "\n")
+# # -------------------------------------------------------------
+# # 3.4️⃣ Two-level Pivot: DA Level × CIE Level
+# pivot4 = pd.pivot_table(df, index='DA_Level', columns='CIE_Level', values='ASSNT', aggfunc='mean')
+# print("4️⃣ MEAN ASSNT SCORE BY DA LEVEL AND CIE LEVEL:\n", pivot4, "\n")
 
-# -------------------------------------------------------------
-# 3.5️⃣ Adding Margins (Totals)
-pivot5 = pd.pivot_table(df, index='CIE_Level', values='CIE', aggfunc='mean', margins=True)
-print("5️⃣ MEAN CIE BY LEVEL (WITH TOTAL):\n", pivot5, "\n")
+# # -------------------------------------------------------------
+# # 3.5️⃣ Adding Margins (Totals)
+# pivot5 = pd.pivot_table(df, index='CIE_Level', values='CIE', aggfunc='mean', margins=True)
+# print("5️⃣ MEAN CIE BY LEVEL (WITH TOTAL):\n", pivot5, "\n")
 
-# -------------------------------------------------------------
-# 3.6️⃣ Visual-Ready Pivot (Style)
-pivot6 = pd.pivot_table(df, index='CIE_Level', columns='GENDER', values='DA', aggfunc='mean')
-styled_pivot = pivot6.style.background_gradient(cmap='coolwarm')
-print("6️⃣ STYLED PIVOT (Use in Jupyter Notebook for color view):\n", pivot6, "\n")
+# # -------------------------------------------------------------
+# # 3.6️⃣ Visual-Ready Pivot (Style)
+# pivot6 = pd.pivot_table(df, index='CIE_Level', columns='GENDER', values='DA', aggfunc='mean')
+# styled_pivot = pivot6.style.background_gradient(cmap='coolwarm')
+# print("6️⃣ STYLED PIVOT (Use in Jupyter Notebook for color view):\n", pivot6, "\n")
 
 # =============================================================
 # OPTIONAL EXPORT TO EXCEL
@@ -112,3 +112,60 @@ print("6️⃣ STYLED PIVOT (Use in Jupyter Notebook for color view):\n", pivot6
 #     pivot4.to_excel(writer, sheet_name="Cross_DA_CIE")
 #     pivot5.to_excel(writer, sheet_name="Mean_CIE_with_Total")
 # print("✅ All pivot tables exported to Pivot_with_Bins.xlsx")
+
+
+import pandas as pd
+
+# -----------------------------
+# 1️⃣ Create DataFrame
+# -----------------------------
+data = {
+    "Student": ["riya", "arjun", "neha"],
+    "subject": ["math", "science", "english"],
+    "marks": [78, 64, 82],
+    "gender": ["f", "m", "f"]
+}
+
+# Don’t set index yet — keep Student as column for melt()
+df = pd.DataFrame(data)
+
+# -----------------------------
+# 2️⃣ Categorize marks into bins
+# -----------------------------
+cie_bins = [0, 60, 70, 100]
+cie_labels = ['Low', 'Medium', 'High']
+
+df["performance"] = pd.cut(df["marks"], bins=cie_bins, labels=cie_labels)
+
+# -----------------------------
+# 3️⃣ Create Pivot Table
+# -----------------------------
+pivot = pd.pivot_table(
+    data=df,
+    index=["performance"],
+    columns=["subject", "gender"],
+    aggfunc="count",
+    fill_value=0,
+    margins=True,
+    margins_name="TOTAL"
+)
+print("🔹 PIVOT TABLE RESULT:")
+print(pivot)
+print("\n" + "=" * 80 + "\n")
+
+# -----------------------------
+# 4️⃣ Melt the DataFrame
+# -----------------------------
+melted = pd.melt(
+    df,
+    id_vars=["Student"],   # must match exact column names
+    value_vars=["subject", "gender", "marks" ,"performance"],
+    var_name="Attribute",
+    value_name="Value"
+)
+
+print("➡️ Melted Data:")
+print(melted)
+
+
+
