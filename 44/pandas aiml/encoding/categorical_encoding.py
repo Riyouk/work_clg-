@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 
 lebel = LabelEncoder()
-df = pd.read_csv("C:/44/pandas aiml/data_loan.csv")
+df = pd.read_csv("C:/Users/User/forgit uknow/work_clg-/44/pandas aiml/DataSets/DataSets/data_loan.csv")
 print(df.info())
 
 #LABEL ENCODING 
@@ -37,10 +37,10 @@ print(df.info())
 # data = pd.concat([df,df1],axis=1)
 # print(data)
 
-one = OneHotEncoder(drop='first', sparse_output=True)
-encoded = one.fit_transform(df[["Degree"]])
-print(encoded)
-df1 = pd.DataFrame(encoded.toarray(), columns=one.get_feature_names_out(['Degree']))
-print(df1)
-data = pd.concat([df, df1], axis=1)
-print(data)
+# one = OneHotEncoder(drop='first', sparse_output=True)
+# encoded = one.fit_transform(df[["Degree"]])
+# print(encoded)
+# df1 = pd.DataFrame(encoded.toarray(), columns=one.get_feature_names_out(['Degree']))
+# print(df1)
+# data = pd.concat([df, df1], axis=1)
+# print(data)

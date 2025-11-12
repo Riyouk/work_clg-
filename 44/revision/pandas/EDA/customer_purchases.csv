@@ -1,0 +1,11 @@
+Customer_ID,Gender,Age,Annual_Income (₹),Spending_Score,Membership_Level,Purchased
+C001,Male,25.0,45000.0,39.0,Gold,Yes
+C002,Female,30.0,54000.0,81.0,Silver,No
+C003,Male,,50000.0,6.0,Platinum,Yes
+C004,Female,28.0,,77.0,Silver,No
+C005,Female,35.0,61000.0,40.0,,Yes
+C006,Male,40.0,72000.0,76.0,Gold,Yes
+C007,female,29.0,58000.0,,Silver,No
+C008,MALE,23.0,48000.0,20.0,Bronze,Yes
+C009,Male,31.0,62000.0,65.0,Silver,No
+C010,Female,,75000.0,90.0,Gold,Yes
