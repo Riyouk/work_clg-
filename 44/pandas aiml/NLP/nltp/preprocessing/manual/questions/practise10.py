@@ -60,3 +60,5 @@ def main(text):
     pos_tags = post_tagging(words)
     print("\nPOS Tags:", pos_tags)
 
+if __name__ == "__main__":
+    main(oper)
