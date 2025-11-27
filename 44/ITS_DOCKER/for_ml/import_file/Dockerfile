@@ -9,3 +9,4 @@ COPY train_model.py .
 
 # Run the script when the container starts
 CMD ["python", "train_model.py"]
+

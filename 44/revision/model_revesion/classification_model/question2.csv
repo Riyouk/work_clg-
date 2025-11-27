@@ -1,0 +1,31 @@
+customer_id,tenure_months,monthly_charges,total_charges,contract_type,payment_method,internet_service,tech_support,num_complaints,avg_daily_usage_minutes,days_since_last_login,age,gender,location,is_autopay,is_paperless,is_premium_streaming,is_churn
+C0001,3,499,1497,Month-to-month,Credit Card,Fibre,No,2,45,5,28,Male,Bengaluru,1,1,0,1
+C0002,24,399,9576,Two year,Auto Debit,DSL,Yes,0,25,2,42,Female,Hyderabad,1,1,1,0
+C0003,12,299,3588,One year,Credit Card,Fibre,Yes,1,60,10,35,Male,Chennai,0,1,0,0
+C0004,1,549,549,Month-to-month,UPI,Fibre,No,4,120,30,21,Female,Delhi,0,0,1,1
+C0005,36,249,8964,Two year,Auto Debit,DSL,Yes,0,15,1,50,Female,Mumbai,1,1,0,0
+C0006,8,199,1592,Month-to-month,Credit Card,DSL,No,3,10,40,27,Male,Pune,0,0,0,1
+C0007,48,699,33552,Two year,Auto Debit,Fibre,Yes,0,180,0,46,Male,Bengaluru,1,1,1,0
+C0008,6,349,2094,One year,UPI,Fibre,No,2,80,8,30,Female,Chennai,0,0,1,0
+C0009,15,279,4185,One year,Credit Card,DSL,Yes,1,30,3,33,Male,Hyderabad,1,0,0,0
+C0010,2,599,1198,Month-to-month,Credit Card,Fibre,No,5,150,25,23,Female,Mumbai,0,0,1,1
+C0011,20,329,6580,One year,Auto Debit,DSL,Yes,0,20,4,38,Male,Pune,1,1,0,0
+C0012,10,229,2290,Month-to-month,UPI,DSL,No,2,12,18,31,Female,Delhi,0,0,0,1
+C0013,7,399,2793,Month-to-month,Credit Card,Fibre,No,3,95,12,29,Male,Bengaluru,0,0,1,1
+C0014,30,259,7770,Two year,Auto Debit,DSL,Yes,0,10,1,44,Female,Chennai,1,1,0,0
+C0015,18,479,8622,One year,Credit Card,Fibre,Yes,1,140,6,39,Male,Mumbai,0,1,1,0
+C0016,4,189,756,Month-to-month,UPI,DSL,No,2,8,22,26,Female,Pune,0,0,0,1
+C0017,60,799,47940,Two year,Auto Debit,Fibre,Yes,0,220,0,52,Male,Bengaluru,1,1,1,0
+C0018,9,219,1971,One year,Credit Card,DSL,No,2,18,11,34,Female,Hyderabad,0,0,0,0
+C0019,14,309,4326,One year,Auto Debit,Fibre,Yes,1,55,7,37,Male,Delhi,1,1,1,0
+C0020,5,159,795,Month-to-month,UPI,DSL,No,3,7,28,24,Female,Mumbai,0,0,0,1
+C0021,22,269,5918,One year,Credit Card,DSL,Yes,0,22,3,41,Male,Pune,1,1,0,0
+C0022,16,349,5584,One year,Auto Debit,Fibre,Yes,0,100,9,36,Female,Bengaluru,1,0,1,0
+C0023,11,199,2189,Month-to-month,UPI,DSL,No,2,9,17,32,Male,Chennai,0,0,0,1
+C0024,40,429,17160,Two year,Auto Debit,Fibre,Yes,0,165,2,48,Female,Delhi,1,1,1,0
+C0025,13,289,3757,One year,Credit Card,DSL,No,1,35,14,33,Male,Mumbai,0,0,0,0
+C0026,17,309,5253,One year,Auto Debit,Fibre,Yes,0,60,5,40,Female,Pune,1,1,1,0
+C0027,21,199,4179,One year,UPI,DSL,No,2,11,6,38,Male,Bengaluru,0,0,0,0
+C0028,27,239,6453,Two year,Credit Card,Fibre,Yes,0,130,1,45,Female,Chennai,1,1,1,0
+C0029,19,179,3401,Month-to-month,UPI,DSL,No,3,6,19,29,Male,Hyderabad,0,0,0,1
+C0030,33,359,11847,Two year,Auto Debit,Fibre,Yes,0,175,2,47,Female,Mumbai,1,1,1,0

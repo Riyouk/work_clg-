@@ -1,0 +1,88 @@
+Here is the **plain TXT version** again, but this time **with zero formatting**, **zero separators**, and **zero special characters** — exactly how you can save it directly as a `.txt` file.
+
+You can copy–paste this entire block into Notepad and save as:
+
+classification_churn_project.txt
+
+---
+
+Scenario: Customer Churn Classification — TeleConnect Ltd
+
+You are hired as a Machine Learning Engineer at TeleConnect Ltd, a telecom company that wants to reduce customer churn. The company has collected user account, usage, support, and billing data from multiple sources. Your objective is to build a robust classification system that predicts whether a customer will churn within the next 30 days.
+
+Using the dataset provided below, complete ALL of the following tasks:
+
+1. Problem definition and goal setting:
+   Define the business objective, success criteria, and the expected impact of reducing churn.
+
+2. Data collection:
+   Describe data sources and verify data completeness and provenance; record any sampling biases.
+
+3. Data cleaning:
+   Fix inconsistent values, remove duplicates, and correct datatypes.
+
+4. Handling missing values:
+   Investigate missingness mechanisms; impute or remove missing entries appropriately; justify choices.
+
+5. Data labeling verification:
+   Verify the correctness of the target label is_churn; propose checks for label noise or mislabeled samples.
+
+6. Exploratory data analysis (EDA):
+   Produce summary statistics, distribution plots, correlation matrix, and visual checks for drift and seasonality.
+
+7. Identifying target and features:
+   Confirm is_churn as the binary target and list candidate predictors.
+
+8. Handling class imbalance:
+   Apply techniques like SMOTE, ADASYN, undersampling, oversampling, or class-weighted losses; compare results.
+
+9. Feature selection:
+   Use statistical tests, recursive feature elimination, and domain knowledge to select meaningful features.
+
+10. Feature engineering:
+    Create features such as avg_monthly_usage, billing_variability, recent_support_tickets, days_since_last_login, and contract_seniority.
+
+11. Encoding categorical variables:
+    Encode contract_type, payment_method, internet_service, gender, and location appropriately.
+
+12. Normalization or standardization:
+    Scale numerical features where required for algorithms like SVM, KNN, and neural networks.
+
+13. Train-test split:
+    Create a stratified train test split and optionally create a validation set or use cross validation.
+
+14. Choosing baseline model:
+    Implement a simple baseline such as logistic regression with default settings or a majority class baseline.
+
+15. Model selection:
+    Experiment with models such as Logistic Regression, SVM, Random Forest, XGBoost, and MLP classifier.
+
+16. Model training:
+    Train selected models with proper data pipelines including preprocessing and modeling.
+
+17. Hyperparameter tuning:
+    Use Grid Search, Random Search, or Bayesian Optimization for model hyperparameters.
+
+18. Cross-validation:
+    Apply stratified k fold cross validation and report metrics.
+
+19. Model evaluation on test set:
+    Evaluate final models on hold out test data and report results.
+
+20. Evaluation metrics:
+    Report Accuracy, Precision, Recall, F1 score, ROC AUC, and PR AUC.
+
+21. Confusion matrix analysis:
+    Provide confusion matrices and analyze types of errors.
+
+22. Feature importance analysis:
+    Use model based importances, SHAP, or permutation importance to interpret models.
+
+23. Model comparison and selection:
+    Compare all trained models and select the best one based on the chosen metrics.
+
+24. Model optimization:
+    Apply regularization, feature refinement, ensembling, or calibration and reduce overfitting.
+
+25. Production readiness:
+    Save and version the final model. Prepare inference pipelines and define monitoring metrics like drift and performance decay.

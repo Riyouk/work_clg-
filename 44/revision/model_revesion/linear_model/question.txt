@@ -1,0 +1,40 @@
+---
+
+# **A. SCENARIO-BASED PRACTICAL QUESTION (COPY–PASTE READY)**
+
+## **Scenario: Housing Price Intelligence System – MetroHomes Pvt Ltd**
+
+You are working as a Junior Data Scientist at **MetroHomes Pvt Ltd**, a real-estate analytics company.
+Your task is to develop a complete **Housing Price Prediction System** using Linear Regression.
+The company provides you a raw dataset with missing values, categorical variables, outliers, multicollinearity issues, and unrealistic entries.
+
+Using the dataset given below, perform **all** of the following tasks:
+
+---
+
+### **Tasks to Perform**
+
+1. Import the dataset and clean it (check datatypes, detect inconsistencies).
+2. Perform Exploratory Data Analysis (EDA) including distributions, correlations, and summary statistics.
+3. Handle missing values appropriately for both numerical and categorical features.
+4. Encode categorical variables (location, property_type).
+5. Apply feature scaling (Normalization or Standardization).
+6. Split the dataset into training and testing sets.
+7. Build a **Simple Linear Regression** model using `area_sqft → price`.
+8. Build a **Multiple Linear Regression** model using all relevant predictors.
+9. Implement **Gradient Descent manually** for at least one numerical feature pair.
+10. Check regression model assumptions using plots (linearity, homoscedasticity, normality, independence).
+11. Detect and remove outliers using a suitable method (Z-score, IQR, or box-plots).
+12. Check for multicollinearity using **VIF** and address high VIF features.
+13. Perform residual analysis (residual vs fitted plot, QQ plot, histogram).
+14. Evaluate the model using MAE, MSE, RMSE, and R².
+15. Perform **K-Fold Cross-Validation** (k=5 or 10).
+16. Apply **regularization models**: Lasso, Ridge, and Elastic Net.
+17. Perform **hyperparameter tuning** using GridSearchCV for regularization parameters (alpha, l1_ratio).
+18. Predict the price for new unseen data.
+19. Save the final model using pickle/joblib and load it again to test prediction.
+
+Use the dataset below to complete all tasks.
+
+---
+
