@@ -37,7 +37,7 @@ plt.show()
 # 5. Train-test split
 # -----------------------------
 from sklearn.model_selection import train_test_split, GridSearchCV, StratifiedKFold
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report,accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 
 X = df.drop(columns=["Attrition"])
@@ -58,8 +58,8 @@ stkf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 model = RandomForestClassifier(random_state=42)
 
 param_grid = {
-    "max_depth": [3, 4, 5],
-    "n_estimators": [10, 15, 20],
+    "max_depth": [3, 4, 5,7],
+    "n_estimators": [10, 15, 20,50],
     "max_features": ["sqrt", "log2", None],
     "min_samples_split": [2, 3, 4, 5],
     "min_samples_leaf": [2]
@@ -82,3 +82,4 @@ best_model = grid.best_estimator_
 y_pred = best_model.predict(x_test)
 
 print("Classification Report:\n", classification_report(y_test, y_pred))
+print("ACC",accuracy_score(y_test,y_pred))

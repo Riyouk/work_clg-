@@ -90,3 +90,26 @@ plt.show()
 # ax.set_ylabel("PC2")
 # ax.set_zlabel("PC3")
 # plt.show()
+
+
+# ---------------------------------------------------------
+# ELBOW METHOD PLOT
+# ---------------------------------------------------------
+plt.figure(figsize=(8, 6))
+plt.plot(n_clusters, inertia_vals, marker='o')
+plt.title("Elbow Method - Optimal K")
+plt.xlabel("Number of Clusters (K)")
+plt.ylabel("Inertia (Within-Cluster Sum of Squares)")
+plt.grid(True)
+plt.show()
+
+# ---------------------------------------------------------
+# SILHOUETTE SCORE PLOT
+# ---------------------------------------------------------
+plt.figure(figsize=(8, 6))
+plt.plot(n_clusters, silhouette_vals, marker='o')
+plt.title("Silhouette Score vs Number of Clusters")
+plt.xlabel("Number of Clusters (K)")
+plt.ylabel("Silhouette Score")
+plt.grid(True)
+plt.show()
